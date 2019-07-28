@@ -1,0 +1,75 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: gabriel anatrone
+author: gabriel anatrone
+email: anatrone.gabriel@gmail.com
+description: Blog pessoal do Gabriel Anatrone. Aqui você encontra dos mais diversos posts sobre tudo.
+keywords: blog pessoal, gabriel anatrone, anatrone, blog, pessoal, portfolio, portifolio
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://ganatrone.net" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+pernmalink: /:year/:month/:day/:title
+# Paginate
+paginate: 6
+paginate_path: "/:num/"
+
+sass:
+  sass_dir: _sass
+the-code-show:
+  name: gabriel anatrone
+  tagline: developer fullstack
+  date_format: "%b %-d, %Y"
+  analytics_id: 'UA-141301820-1'
+  disqus_shortname: blog-anatrone
+  comments: true
+  year: 2019
+
+# Generate social links in footer
+  social_links:
+    instagram: anatrone
+    github:  anatrone
+    linkedIn: in/anatrone
+    steam: anatrone
+    rss: rss
+
+theme: the-code-show
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+#  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - contact.md

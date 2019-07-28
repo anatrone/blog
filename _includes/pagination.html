@@ -1,0 +1,21 @@
+<div class="pagination">
+
+    {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a class="previous" href="/blog/"><span class="icon-left-open"></span></a>
+    {% else %}
+    <a class="previous" href="/blog/{{paginator.previous_page}}"><span class="icon-left-open"></span></a>
+    {% endif %}
+    {% else %}
+    <p class="previous disabled">
+    </p>
+    {% endif %}
+
+    <span class="page_number">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+    <a class="next" href="/blog/{{paginator.next_page}}"><span class="icon-right-open"></span></a>
+    {% else %}
+    <span class="next disabled"></span>
+    {% endif %}
+</div>
