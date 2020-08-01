@@ -1,11 +1,12 @@
 # the-code-show
+> the code show is a css template made for a personal blog at Jekyll.
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+[![support for me](https://img.shields.io/badge/support%20for%20me%20on-paypal-brightgreen)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4Q8ABHX2ZVV46&currency_code=USD&source=url)
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+the code show is a css template made for a personal blog at Jekyll.
+However, it was just an adaptation for testing with Jekyll and the blog itself is not active, but there is the theme for those who want to use it.
 
 ## Installation
 
@@ -33,20 +34,18 @@ Or install it yourself as:
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
 
+## Meta
+
+Gabriel Anatrone – [@instagram](https://instagram.com/anatrone) – anatrone.gabriel@gmail.com
+
+Distributed under the MIT. See [LICENSE](https://github.com/DLTK/models/blob/master/LICENSE) for more information.
+
+[https://github.com/anatrone/](https://github.com/anatrone/)
+
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/anatrone. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `the-basictheme-portifolio.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+1. Fork it (<https://github.com/anatrone/blog-jekyll-css/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
